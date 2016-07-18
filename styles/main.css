@@ -3,9 +3,11 @@ html {
 }
 
 body {
+	max-width: 1000px;
+	margin:0 auto;
 	background-color: #444444;
 	border: 5px solid #787878;
-	margin: 50px;
+	margin-top: 50px;
 	padding: 50px;
 	color:white;
 }
@@ -72,5 +74,22 @@ p {
 	font-size: 1.5rem; 
 }
 
+.about-content {
+	width: 100%;
+}
 
+.main-img {
+	width: 30%;
+    vertical-align: top;
+    margin-left: 70px;
+    margin-top: 25px;
+    display: inline-block;
+    border: 1px solid #787878;
+    padding: 5px;
+}
+
+.about-text {
+	width:50%;
+	display: inline-block;
+}
 
